@@ -1,0 +1,19 @@
+openai>=1.3.0
+streamlit==1.32.0
+# For non-Mac systems
+faiss-cpu>=1.7.4 ; platform_system != "Darwin"
+# For Mac systems (both Intel and ARM)
+# Comment out the specific faiss packages and let the fallback numpy implementation work
+# If you want to try installing FAISS on Mac, uncomment and try one of these:
+# faiss-cpu>=1.7.4 ; platform_system == "Darwin"
+# conda install -c conda-forge faiss-cpu  # Run this manually if using conda
+pillow>=10.1.0
+sentence-transformers==2.3.1
+transformers==4.38.2
+pandas==2.2.0
+numpy==1.26.0
+matplotlib==3.8.2
+torch==2.2.0
+torchvision==0.17.0
+python-dotenv==1.0.0
+requests==2.31.0 

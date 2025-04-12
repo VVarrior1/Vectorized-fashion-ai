@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "title": "Blue Denim Jacket",
+    "description": "Classic blue denim jacket with button closure. Perfect for casual outings.",
+    "category": "outerwear",
+    "price": 89.99,
+    "image_url": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=600&auto=format",
+    "image_path": "data/images/product_1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Black Leather Boots",
+    "description": "High-quality leather boots with rubber sole. Water-resistant and durable.",
+    "category": "footwear",
+    "price": 129.99,
+    "image_url": "https://images.unsplash.com/photo-1542840412-ec2c9f6b6030?w=600&auto=format",
+    "image_path": ""
+  },
+  {
+    "id": 3,
+    "title": "White Cotton T-shirt",
+    "description": "Soft and breathable cotton t-shirt. Basic essential for any wardrobe.",
+    "category": "tops",
+    "price": 24.99,
+    "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&auto=format",
+    "image_path": "data/images/product_3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Black Slim-fit Jeans",
+    "description": "Stretch denim slim-fit jeans. Modern cut and comfortable fit.",
+    "category": "bottoms",
+    "price": 59.99,
+    "image_url": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&auto=format",
+    "image_path": "data/images/product_4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Red Knit Sweater",
+    "description": "Warm knit sweater in vibrant red. Perfect for colder days.",
+    "category": "outerwear",
+    "price": 69.99,
+    "image_url": "https://images.unsplash.com/photo-1584273143981-41c073dfe8f8?w=600&auto=format",
+    "image_path": "data/images/product_5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Floral Summer Dress",
+    "description": "Light floral print dress for summer. Comfortable and stylish.",
+    "category": "dresses",
+    "price": 79.99,
+    "image_url": "https://images.unsplash.com/photo-1623609163859-ca93c959b5b8?w=600&auto=format",
+    "image_path": ""
+  },
+  {
+    "id": 7,
+    "title": "Gray Formal Suit",
+    "description": "Elegant gray suit for formal occasions. Tailored fit and high-quality fabric.",
+    "category": "formal",
+    "price": 299.99,
+    "image_url": "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?w=600&auto=format",
+    "image_path": "data/images/product_7.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Striped Polo Shirt",
+    "description": "Cotton polo shirt with classic stripes. Casual yet refined look.",
+    "category": "tops",
+    "price": 39.99,
+    "image_url": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=600&auto=format",
+    "image_path": "data/images/product_8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Brown Leather Wallet",
+    "description": "Genuine leather wallet with multiple card slots and coin pocket.",
+    "category": "accessories",
+    "price": 49.99,
+    "image_url": "https://images.unsplash.com/photo-1559563458-527698bf5295?w=600&auto=format",
+    "image_path": "data/images/product_9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Silver Watch",
+    "description": "Elegant silver watch with metal strap. Water-resistant and durable.",
+    "category": "accessories",
+    "price": 159.99,
+    "image_url": "https://images.unsplash.com/photo-1539874754764-5a96559165b0?w=600&auto=format",
+    "image_path": "data/images/product_10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Khaki Chino Pants",
+    "description": "Classic khaki chino pants. Versatile and perfect for business casual.",
+    "category": "bottoms",
+    "price": 69.99,
+    "image_url": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&auto=format",
+    "image_path": "data/images/product_11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Blue Formal Shirt",
+    "description": "Crisp blue formal shirt with standard collar. Perfect for office wear.",
+    "category": "tops",
+    "price": 59.99,
+    "image_url": "https://images.unsplash.com/photo-1563630423918-b58f07336ac5?w=600&auto=format",
+    "image_path": ""
+  },
+  {
+    "id": 13,
+    "title": "Black Running Shoes",
+    "description": "Lightweight running shoes with cushioned sole. Comfortable for long runs.",
+    "category": "footwear",
+    "price": 89.99,
+    "image_url": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=600&auto=format",
+    "image_path": "data/images/product_13.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Red Baseball Cap",
+    "description": "Adjustable cotton cap with embroidered logo. Perfect for casual outfits.",
+    "category": "accessories",
+    "price": 29.99,
+    "image_url": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=600&auto=format",
+    "image_path": "data/images/product_14.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Navy Blue Backpack",
+    "description": "Durable backpack with multiple compartments. Perfect for daily use.",
+    "category": "accessories",
+    "price": 79.99,
+    "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&auto=format",
+    "image_path": "data/images/product_15.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Green Hoodie",
+    "description": "Comfortable cotton hoodie in forest green. Warm and casual.",
+    "category": "outerwear",
+    "price": 49.99,
+    "image_url": "https://images.unsplash.com/photo-1556172732-bcded72dab6b?w=600&auto=format",
+    "image_path": ""
+  },
+  {
+    "id": 17,
+    "title": "Beige Trench Coat",
+    "description": "Classic trench coat in beige. Timeless style and weather-resistant.",
+    "category": "outerwear",
+    "price": 129.99,
+    "image_url": "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=600&auto=format",
+    "image_path": "data/images/product_17.jpg"
+  },
+  {
+    "id": 18,
+    "title": "White Sneakers",
+    "description": "Clean white leather sneakers. Versatile and minimalist design.",
+    "category": "footwear",
+    "price": 99.99,
+    "image_url": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=600&auto=format",
+    "image_path": "data/images/product_18.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Patterned Scarf",
+    "description": "Soft cotton scarf with geometric pattern. Adds style to any outfit.",
+    "category": "accessories",
+    "price": 34.99,
+    "image_url": "https://images.unsplash.com/photo-1601106976699-3d7a4699d16c?w=600&auto=format",
+    "image_path": ""
+  },
+  {
+    "id": 20,
+    "title": "Wireless Headphones",
+    "description": "Premium wireless headphones with noise cancellation. Long battery life.",
+    "category": "electronics",
+    "price": 199.99,
+    "image_url": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=600&auto=format",
+    "image_path": "data/images/product_20.jpg"
+  }
+]
