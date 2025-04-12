@@ -55,21 +55,6 @@ This will start the Streamlit app on `http://localhost:8501` where you can:
 - Browse the product catalog
 - View AI-enhanced product descriptions and comparisons
 
-### Exploring the Jupyter Notebook
-
-The project includes a Jupyter notebook that demonstrates the key techniques:
-
-```bash
-cd notebooks
-jupyter notebook vector_search_rag_demo.ipynb
-```
-
-This notebook shows:
-
-- How embeddings are generated for products
-- How vector search works for recommendations
-- How RAG is used to enhance product information
-
 ## Project Structure
 
 ```
@@ -87,8 +72,6 @@ This notebook shows:
 │   ├── vector_db/          # Stored vector databases
 │   ├── products.csv        # Product metadata
 │   └── products.json       # Product data in JSON format
-├── notebooks/
-│   └── vector_search_rag_demo.ipynb  # Demo notebook
 ├── .env                    # Environment variables (create this)
 ├── requirements.txt        # Dependencies
 └── README.md               # This file
@@ -105,15 +88,3 @@ This notebook shows:
 - **Pandas**: Data manipulation
 - **PIL/Pillow**: Image processing
 
-## Future Improvements
-
-- Add user authentication and personalized recommendations
-- Implement a more sophisticated ranking algorithm
-- Add support for more product categories
-- Deploy the application to a cloud service
-- Add a shopping cart and checkout functionality
-- Support video and audio-based searches
-
-## License
-
-MIT

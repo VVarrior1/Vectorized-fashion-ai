@@ -21,7 +21,8 @@ def main():
         "PIL": "pillow",
         "sentence_transformers": "sentence-transformers",
         "transformers": "transformers",
-        "dotenv": "python-dotenv"
+        "dotenv": "python-dotenv",
+        "faiss": "faiss-cpu"
     }
     
     missing_deps = []
@@ -39,26 +40,20 @@ def main():
         
         st.write("\n### Installation Instructions")
         st.code("pip install -r requirements.txt", language="bash")
-        return
-    
-    # Try to import FAISS but handle gracefully if not available
-    try:
-        import faiss
-        st.success("✅ FAISS library is available for fast vector search")
-    except ImportError:
-        st.warning("⚠️ FAISS library is not available. Using fallback numpy-based search.")
-        st.write("For better performance, install FAISS using the instructions below:")
         
-        # Show platform-specific installation instructions
-        if sys.platform == "darwin":
-            st.write("**Mac Installation Options:**")
-            st.write("1. Using Conda (recommended for Mac):")
-            st.code("conda install -c conda-forge faiss-cpu", language="bash")
-            st.write("2. Or try pip if conda doesn't work:")
-            st.code("pip install faiss-cpu", language="bash")
-            st.write("Note: FAISS can be difficult to install on Mac. The app will work without it using a numpy fallback.")
-        else:
-            st.code("pip install faiss-cpu", language="bash")
+        if "faiss-cpu" in missing_deps:
+            st.write("\n### FAISS Installation")
+            st.write("This application requires FAISS for vector search capabilities.")
+            
+            if sys.platform == "darwin":
+                st.write("**Mac Installation:**")
+                st.write("Using Conda (recommended for Mac):")
+                st.code("conda install -c conda-forge faiss-cpu", language="bash")
+            else:
+                st.write("**Installation via pip:**")
+                st.code("pip install faiss-cpu", language="bash")
+        
+        return
     
     # Check for OpenAI API key
     if not os.getenv("OPENAI_API_KEY"):
