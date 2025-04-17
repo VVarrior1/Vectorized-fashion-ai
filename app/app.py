@@ -54,6 +54,14 @@ if 'tab' not in st.session_state:
 
 # Main function to run the app
 def main():
+    # Ensure session state is initialized
+    if 'recommendations' not in st.session_state:
+        st.session_state.recommendations = []
+    if 'current_product' not in st.session_state:
+        st.session_state.current_product = None
+    if 'tab' not in st.session_state:
+        st.session_state.tab = "text_search"
+    
     st.title("👗 Fashion Product Recommender")
     st.markdown("Discover fashion items with AI-powered recommendations")
     
